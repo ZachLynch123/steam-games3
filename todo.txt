@@ -1,0 +1,5 @@
+Data
+    - Get all API endpoints needed for project
+    - build project in react first, then impliment redux later
+    - find algorithm to help with sorting of arrays
+
