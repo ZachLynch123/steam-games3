@@ -3,3 +3,9 @@ Data
     - build project in react first, then impliment redux later
     - find algorithm to help with sorting of arrays
 
+Css
+
+    - Find a nice layout for project
+    - flexbox vs grid
+    - try not to use bootstrap, but if all else fails go for it 
+    
