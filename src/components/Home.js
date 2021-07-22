@@ -19,7 +19,7 @@ export default class Home extends Component {
     componentDidMount() {
         fetch(`http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=B9D7B8759C0EA46E770FE3F9E3250924&steamids=76561197960435530`, {mode: 'no-cors', header: {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'}})
         .then(res => res.json)
-        .then(res2 => this.setState({data: res2}))
+        .then(res2 => this.setState({data: res2})) 
     }
 
     render() {
